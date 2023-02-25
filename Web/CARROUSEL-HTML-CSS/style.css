@@ -1,0 +1,91 @@
+body {
+  font-family: sans-serif;
+}
+
+.carousel {
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.slides {
+  display: flex;
+  overflow-x: scroll;
+  color: rgb(110, 98, 98);
+ 
+  
+ 
+}
+
+.slide-parts {
+  align-items: center;
+  border-radius: 10px;
+  display: flex;
+  flex-shrink: 0;
+  font-size: 100px;
+  height: 600px;
+  justify-content: center;
+  margin: 0 1rem;
+  position: relative;
+
+  transform: scale(1);
+  transform-origin: center center;
+  transition: transform .5s;
+  width: 70%;
+}
+
+.carousel__nav {
+  padding: 1.25rem .5rem;
+}
+
+.slider-nav {
+  align-items: center;
+  background-color: #ddd;
+  border-radius: 50%;
+  color: #000;
+  display: inline-flex;
+  height: 1.5rem;
+  justify-content: center;
+  padding: .5rem;
+  position: relative;
+  text-decoration: none;
+  width: 1.5rem;
+}
+
+.slider-nav:hover,
+.slider-nav:active {
+  background-color: #000;
+  color: #fff;
+}
+
+.slide-1 {
+  background-image: url(../CARROUSEL-HTML-CSS/forest.jpeg);
+  background-size: cover;
+  
+}
+
+.slide-2 {
+  background-image: url(../CARROUSEL-HTML-CSS/forest2.jpg);
+  background-size: cover;
+}
+
+.slide-3 {
+  background-image:url(../CARROUSEL-HTML-CSS/forest3.jpg);
+ 
+}
+
+.slide-4 {
+  background-image:url(../CARROUSEL-HTML-CSS/forest4.jpg);
+  background-size: cover;
+}
+
+.slide-5 {
+  background-image:url(../CARROUSEL-HTML-CSS/forest5.jpg);
+  background-size: cover;
+ 
+
+}
+
+.bandeau{
+  backdrop-filter: blur(5px);
+}
