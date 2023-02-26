@@ -28,7 +28,7 @@ body{
 
 
 
-.case{ /*Permet de donner une direction au fils de*/
+.case{ /*Permet de stocker des catégories et des sous catégories*/
     text-align: center;
     background-color:#77797a;
     width: 100%;
