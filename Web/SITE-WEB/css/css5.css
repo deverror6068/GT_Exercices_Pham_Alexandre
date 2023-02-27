@@ -73,3 +73,24 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-track {
   background: #c5cacf
 }
+
+
+@media (max-width :900px){
+  .frise{
+      scale: 0.7;
+      margin: -5rem;
+      
+  }
+
+  .date-evenement{
+  
+  padding: 0 15rem;
+  
+  }
+  
+}
+
+.a{
+  background-color: #525553;
+  border: #2b2c2b;
+}

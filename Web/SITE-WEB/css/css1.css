@@ -323,7 +323,8 @@ body::-webkit-scrollbar-track {
     margin: 0 -15rem;
 
   }
-  @media(min-height:1920px){
+
+  @media(min-height:1390px){
 
   body{
   
@@ -335,6 +336,7 @@ body::-webkit-scrollbar-track {
   }
 
   .forest{
+    margin:0 105rem
     
  
   }

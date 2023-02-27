@@ -9,12 +9,12 @@ body {
 
 header{
     height: 100px;
-    height: 6.25rem;
+   
     margin: 0 auto;
     position: fixed;
     top: 0;
-    width: 100vw;
-    
+    width: 100%;
+    z-index: 15;
     
     align-items: center;
     user-select: none;
@@ -58,6 +58,7 @@ ul{
     font-size: 14px;
     font-style: uppercase;
     position: fixed;
+    z-index: 15;
     
 
 }
@@ -94,6 +95,7 @@ a{
     background-color: #666;
     width: 140px; 
     position: fixed;
+    z-index: 10;
   }
   .menu,
   .menu ul {
@@ -145,7 +147,7 @@ h1{
     font-size:small;
     border: 1px solid black;
     border-radius: 1.5rem;
-    
+    z-index: -1;
 
     margin: 20rem 10rem;
 }
@@ -190,6 +192,7 @@ h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 20rem 20rem;
     border-radius: 1.5rem;
+    z-index: -1;
 }
 
 .carte2:hover{
@@ -209,6 +212,7 @@ h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 20rem 40rem;
     border-radius: 1.5rem;
+    z-index: -1;
 }
 
 .carte3:hover{
@@ -246,4 +250,23 @@ body::-webkit-scrollbar-thumb {
 
 body::-webkit-scrollbar-track {
     background: #c5cacf
+}
+
+
+
+@media (max-width :900px){
+    .carte1{
+        scale: 0.7;
+        width: 15rem;
+    }
+
+    .carte2{
+        scale: 0.7;
+        width: 15rem;
+    }
+    .carte3{
+        scale: 0.7;
+        width: 15rem;
+    }
+    
 }
