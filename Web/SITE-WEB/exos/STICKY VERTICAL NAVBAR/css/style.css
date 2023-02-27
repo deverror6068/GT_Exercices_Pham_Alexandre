@@ -1,0 +1,52 @@
+body {
+    background-image: url(../img/wallpaper.jpg);
+    background-size: cover;
+  }
+
+  .menu {
+    background-color: #666;
+    width: 140px; 
+    position: fixed;
+  }
+  .menu,
+  .menu ul {
+   
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+  }
+
+
+  .menu a {
+    
+    display: block;
+   
+    width: 120px;
+    height: 30px;
+    line-height: 30px; 
+    padding: 3px 10px;
+    text-align: center;
+  }
+
+
+  
+  .menu li {
+    background-color: #666; 
+  }
+  .menu li a {
+    color: #ccc; 
+  }
+  .menu li:hover {
+    background-color: #000; 
+  }
+  .menu li:hover a {
+    color: #fff; 
+  }
+
+h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  text-align:  right;
+}
+
+

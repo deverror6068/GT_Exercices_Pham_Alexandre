@@ -1,0 +1,16 @@
+.scroll{
+
+    width: 10%;
+    height: 150px;
+    border : 5px solid ;
+    background-color: rgb(40, 107, 107);
+    overflow: scroll;
+    overscroll-behavior: contain;
+
+}
+
+body{
+  
+}
+
+<div class="scroll"> 

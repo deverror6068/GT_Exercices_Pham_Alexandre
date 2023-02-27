@@ -1,0 +1,80 @@
+
+
+
+body{
+    margin: 100px 50px;
+    font-family: Roboto;
+}
+.boutonmenu,.boutonmenuspecialcial{
+    background-color:#515353;
+    text-align: center;
+    width: 153px;
+    height: 52px; 
+    border-right: 1px dotted;
+}
+
+.menu{/* element du menu deroulant*/
+    background-color:#7c8183;
+    text-align: center;
+    width: 153px;
+    height: 52px;
+    display: none;
+    position: absolute;
+}
+.menu:hover{
+    background-color: #484c4e;
+}
+
+
+
+
+.case{ /*Permet de donner une direction au fils de*/
+    text-align: center;
+    background-color:#77797a;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+.gauche:hover,.case:hover{
+    background-color: #3d3f41   ;
+}
+.gauche:hover .filsdegauche, .case:hover .sous-menu{
+    display:block ;
+    justify-content:flex-end;
+    position:absolute;
+}
+ .sous-menu{
+    display: none;
+    background-color:#414446;
+    width: 100%;
+    height: fit-content;
+}.sous-menu {
+    left: 100%;
+
+}
+.sous-menu:hover{
+    background-color: #3c3d3f;
+}
+
+p {
+    color: white;
+}
+
+
+.boutonmenu:hover .menu {
+    display: block;
+}
+.boutonmenuspecial:hover .megamenu, .boutonmenuspecial:hover .barre{
+    display: block;
+    position:absolute;
+}
+.elementdegrosmenu{
+    text-align: none;
+    display: flex;
+    display: inline;;
+    font-family: Roboto;
+    color: white;
+    
+    
+}

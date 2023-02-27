@@ -323,5 +323,21 @@ body::-webkit-scrollbar-track {
     margin: 0 -15rem;
 
   }
+  @media(min-height:1920px){
+
+  body{
   
+  }
+  footer{
+  scale: 1.5;
+
+
+  }
+
+  .forest{
+    
+ 
+  }
+  
+}
 }

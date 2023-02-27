@@ -89,11 +89,3 @@ body {
 .bandeau{
   backdrop-filter: blur(5px);
 }
-
-
-@media(max-width: 900px){
-  p{
-    font-size: medium;
-    
-  }
-}

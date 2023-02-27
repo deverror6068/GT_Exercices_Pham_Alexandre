@@ -115,7 +115,9 @@ header{
 }
 
 
-
+p{
+  color: rgb(110, 98, 98);
+}
 
 
 header div{
@@ -251,4 +253,14 @@ body::-webkit-scrollbar-thumb {
 
 body::-webkit-scrollbar-track {
   background: #c5cacf
+}
+
+
+
+@media(max-width: 900px){
+  p{
+    font-size: medium;
+  }
+
+
 }
